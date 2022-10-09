@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap');
+*{
+  box-sizing: border-box;
+  margin: 0;
+  font-family: 'Inter', sans-serif;
+}
+.title{
+  font-size: 25px;
+}
+.nav{
+  display: flex;
+  justify-content: center;
+  margin-top: 200px;
+  flex-direction: column;
+  align-items: center;
+}
+.underline{
+  border-top: 5px solid #0047AB;
+  width: 190px;
+}
+.main-box{
+  width: 100%;
+  height: 700px;
+  margin-top: 80px;
+  display: flex;
+  justify-content: center;
+}
+.box{
+  width: 800px;
+  height: 600px;
+  box-shadow: 16px 16px 32px #c8c8c8,
+  -16px -16px 32px #fefefe;
+}
+.img{
+  width: auto; height: 100%; margin-left: -50px;
+}
+.img-box{
+  display: inline-block; position: relative; width: 200px; height: 200px; overflow: hidden; border-radius: 50%;
+}
+.mini-box{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  width: 100%;
+  align-items: center;
+}
+.job{
+  color: #0047AB;
+  font-weight: 500;
+}
+.info{
+  padding-top: 20px;
+  font-size: 20px;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+.name{
+  font-size: 30px;
+  padding-top: 10px;
+}
+.arrow{
+  display: flex;
+  font-size: 55px;
+  color: #0047AB;
+  padding-top: 30px;
+}
+.left{
+  padding-right: 60px;
+  cursor: pointer;
+}
+.left:hover{
+  color: #89CFF0;
+}
+.right{
+  cursor: pointer;
+}
+.right:hover{
+  color: #89CFF0;
+}
+.btn{
+  width: 150px;
+  height: 40px;
+  color:white ;
+  background-color: #89CFF0;
+  border: none;
+  border-radius: 5px;
+  font-size: 20px;
+  cursor: pointer;
+}
+.suprise{
+  padding-top: 30px;
+}
+.btn:hover{
+  border: 0.5px solid black;
+  transition: 0.4;
+}
